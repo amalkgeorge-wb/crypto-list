@@ -1,0 +1,23 @@
+.sidebar-main{
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+}
+.sidebar{
+    padding: 20px ;
+}
+.side-menu{
+    padding-bottom: 200px;
+}
+.side-footer{
+    padding-top: 100px;
+}
+.side-logged-user{
+    padding-top: 100px;
+}
+.side-user{
+    background-color: gray;
+    border-radius: 5px;
+    color: black;
+}
+
