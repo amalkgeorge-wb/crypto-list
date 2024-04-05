@@ -22,7 +22,7 @@ const SideMenu = () => {
         </div>
         <div className="side-menu mt-5 mb-5">
           <ul>
-            <li className="mb-1">
+            <li className="mb-3">
               <Link
                 style={{
                   color: pathName === "/home" ? "#C7EA46" : "",
@@ -34,17 +34,7 @@ const SideMenu = () => {
                 <span>Home</span>
               </Link>
             </li>
-            <li className="mb-1">
-              <Link
-                style={{ color: pathName === "/organization" ? "#C7EA46" : "" }}
-                to="/organization"
-                className="flex items-center"
-              >
-                <img className="mr-2.5" src={home} alt="home-icon" />
-                <span>Organization</span>
-              </Link>
-            </li>
-            <li className="mb-1">
+            <li className="mb-3">
               <Link
                 style={{ color: pathName === "/assets" ? "#C7EA46" : "" }}
                 to="/assets"
@@ -54,20 +44,30 @@ const SideMenu = () => {
                 <span>Assets</span>
               </Link>
             </li>
+            <li className="mb-3">
+              <Link
+                style={{ color: pathName === "/organization" ? "#C7EA46" : "" }}
+                to="/organization"
+                className="flex items-center"
+              >
+                <img className="mr-2.5" src={home} alt="home-icon" />
+                <span>Organization</span>
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="side-footer mt-5">
           <ul>
-            <li className="flex items-center mt-2">
+            <li className="flex items-center mt-3">
               <img className="mr-2.5" src={notification} alt="home-icon" />
               Notification
             </li>
-            <li className="flex items-center mt-2">
+            <li className="flex items-center mt-3">
               {" "}
               <img className="mr-2.5" src={support} alt="home-icon" />
               Support
             </li>
-            <li className="flex items-center mt-2">
+            <li className="flex items-center mt-3">
               {" "}
               <img className="mr-2.5" src={settings} alt="home-icon" />
               Settings
@@ -75,7 +75,7 @@ const SideMenu = () => {
           </ul>
         </div>
         <div className="side-logged-user">
-          <div className="side-user p-3 flex items-center justify-between">
+          <div className="rounded-md bg-slate-700 p-3 flex items-center justify-between">
             <div className="flex items-center">
               {" "}
               <img src={avatar} className="mr-2" /> <span>Carbon Cell</span>

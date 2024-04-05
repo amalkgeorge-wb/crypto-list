@@ -34,7 +34,6 @@ function App() {
       }
 
       const data = await response.json();
-      console.log(data, "data");
       setPopulationData(data);
       // return data;
     } catch (error) {
@@ -54,7 +53,6 @@ function App() {
       },
     },
   };
-  console.log(populationData.data, "population");
   const labels = populationData?.data?.map((item) => {
     return item.Year;
   });
@@ -80,6 +78,7 @@ function App() {
         <SideMenu />
       </div>
       <div className="basis-5/6 bg-slate-900">
+        <div className="text-2xl font-bold text-white p-5">Home</div>
         <div className="m-8">
           <Bar options={options} data={data} />
         </div>

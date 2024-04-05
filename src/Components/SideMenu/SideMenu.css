@@ -10,13 +10,12 @@
     padding-bottom: 200px;
 }
 .side-footer{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .side-logged-user{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .side-user{
-    background-color: gray;
     border-radius: 5px;
     color: black;
 }

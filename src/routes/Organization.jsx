@@ -6,7 +6,9 @@ function Organization(params) {
       <div className="basis-1/6">
         <SideMenu />
       </div>
-      <div className="basis-5/6">Organization</div>
+      <div className="basis-5/6 bg-slate-900 ">
+        <div className="text-2xl font-bold text-white p-5">Organization</div>
+      </div>
     </div>
   );
 }
