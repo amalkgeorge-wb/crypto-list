@@ -25,10 +25,10 @@ const SideMenu = () => {
             <li className="mb-3">
               <Link
                 style={{
-                  color: pathName === "/home" ? "#C7EA46" : "",
+                  color: pathName === "/crypto-list/home" ? "#C7EA46" : "",
                 }}
                 className="flex items-center"
-                to="/home"
+                to="/crypto-list/home"
               >
                 <img className="mr-2.5" src={home} alt="home-icon" />
                 <span>Home</span>
@@ -36,8 +36,10 @@ const SideMenu = () => {
             </li>
             <li className="mb-3">
               <Link
-                style={{ color: pathName === "/assets" ? "#C7EA46" : "" }}
-                to="/assets"
+                style={{
+                  color: pathName === "/crypto-list/assets" ? "#C7EA46" : "",
+                }}
+                to="/crypto-list/assets"
                 className="flex items-center"
               >
                 <img className="mr-2.5" src={home} alt="home-icon" />
@@ -46,8 +48,11 @@ const SideMenu = () => {
             </li>
             <li className="mb-3">
               <Link
-                style={{ color: pathName === "/organization" ? "#C7EA46" : "" }}
-                to="/organization"
+                style={{
+                  color:
+                    pathName === "/crypto-list/organization" ? "#C7EA46" : "",
+                }}
+                to="/crypto-list/organization"
                 className="flex items-center"
               >
                 <img className="mr-2.5" src={home} alt="home-icon" />

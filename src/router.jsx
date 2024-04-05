@@ -12,17 +12,17 @@ export const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/home",
+    path: "/crypto-list/home",
     element: <App />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/assets",
+    path: "/crypto-list/assets",
     element: <Assets />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/organization",
+    path: "/crypto-list/organization",
     element: <Organization />,
     errorElement: <ErrorPage />,
   },
