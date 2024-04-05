@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/crypto-list/static/css/main.c390612a.css",
-    "main.js": "/crypto-list/static/js/main.3bdb21ea.js",
+    "main.css": "/crypto-list/static/css/main.a97cabe2.css",
+    "main.js": "/crypto-list/static/js/main.bc939ac6.js",
     "static/js/453.c8874e48.chunk.js": "/crypto-list/static/js/453.c8874e48.chunk.js",
     "static/media/avatar.svg": "/crypto-list/static/media/avatar.c94185eb599285727e228bb28c1a7cff.svg",
     "static/media/settings.svg": "/crypto-list/static/media/settings.e98d2f6c942d508c409e3a1b25f003b5.svg",
+    "static/media/growth.svg": "/crypto-list/static/media/growth.c17ff4588ccfec7f1bba433bb707a4ba.svg",
     "static/media/notification.svg": "/crypto-list/static/media/notification.b7c22f566bb6ad4148391b6c7b463565.svg",
     "static/media/support.svg": "/crypto-list/static/media/support.ab83bce31c56d1178103e11b0775fe4b.svg",
     "static/media/home.svg": "/crypto-list/static/media/home.28a7206f3ce7d883ede6283e9d429d44.svg",
     "static/media/more.svg": "/crypto-list/static/media/more.86bc44abcdb62f58e40c07a9dbbe969e.svg",
     "index.html": "/crypto-list/index.html",
-    "main.c390612a.css.map": "/crypto-list/static/css/main.c390612a.css.map",
-    "main.3bdb21ea.js.map": "/crypto-list/static/js/main.3bdb21ea.js.map",
+    "main.a97cabe2.css.map": "/crypto-list/static/css/main.a97cabe2.css.map",
+    "main.bc939ac6.js.map": "/crypto-list/static/js/main.bc939ac6.js.map",
     "453.c8874e48.chunk.js.map": "/crypto-list/static/js/453.c8874e48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c390612a.css",
-    "static/js/main.3bdb21ea.js"
+    "static/css/main.a97cabe2.css",
+    "static/js/main.bc939ac6.js"
   ]
 }
